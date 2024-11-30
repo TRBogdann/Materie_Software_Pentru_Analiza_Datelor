@@ -11,7 +11,7 @@ test_df = df.drop(columns=["Judet", "Regiune"])
 mean = test_df.mean()
 test_df = test_df - mean
 
-#distanta se poate contruii cu matricea de covariatie
+# distantele dintre puncte si axa 1 se afala in matricea de covariatie
 # formula covariatie: C = (X.T*X)/(n-1)
 
 cov= np.cov(test_df.to_numpy().T)
