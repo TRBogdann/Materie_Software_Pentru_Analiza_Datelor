@@ -54,7 +54,7 @@ plt.show()
 #pc1 pc2 reprezinta 97% din varianta.
 #putem sa le folosim pentru a vizualiza datele
 #date proiectate. Formula X_proiectat = X * p
-#p matrice componente ales (in cazul asta pc1,pc2)
+#p matrice componente alese (in cazul asta pc1,pc2)
 
 
 X_pca = pd.DataFrame(test_df.dot(pc_df[["PC1",'PC2']].to_numpy()))
