@@ -74,7 +74,7 @@ plt.ylabel('Principal Component 2')
 plt.title('PCA Projection onto the First Two Principal Components')
 plt.show()
 
-#proiecte pc1
+#proiectie doar pepc1
 X_pc1 = pd.DataFrame(test_df.dot(pc_df[["PC1"]].to_numpy()))
 X_pc1.columns = ["PC1"]
 plt.scatter(X_pc1, [0 for x in range(X_pc1.shape[0])])
