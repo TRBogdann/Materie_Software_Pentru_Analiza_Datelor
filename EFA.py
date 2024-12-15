@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from factor_analyzer.factor_analyzer import calculate_kmo, calculate_bartlett_sphericity
 
-df = pd.read_csv("./EFA_1091/dataIN/MortalityEU.csv")
+df = pd.read_csv("./dataIN/MortalityEU.csv")
 
 #0. Data cleaning => Stergem Coloanele Numerice => Inlocuim datele lipsa cu None(Null)
 # => Stergem Randurile cu date lipsa => Convertim randurile nenumerice la float
